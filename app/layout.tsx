@@ -45,6 +45,14 @@ export const metadata: Metadata = {
       "Building at the intersection of services and artificial intelligence.",
     creator: "@philhie",
   },
+  icons: {
+    icon: [
+      { url: "/icon.svg", type: "image/svg+xml" },
+    ],
+    apple: [
+      { url: "/icon.svg" },
+    ],
+  },
   robots: {
     index: true,
     follow: true,
