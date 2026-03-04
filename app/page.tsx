@@ -7,7 +7,7 @@ export default function Home() {
             Phil Hie
           </h1>
           <p className="text-lg text-neutral-500 dark:text-neutral-400">
-            Building at the intersection of healthcare and technology. Currently Founders Associate at Avelios Medical. On a mission to build something big.
+            Building at the intersection services and artificial intelligence Currently Founders Associate at Avelios Medical. On a mission to build something big.
           </p>
         </div>
         <div className="flex gap-4">
