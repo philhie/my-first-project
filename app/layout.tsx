@@ -46,8 +46,13 @@ export const metadata: Metadata = {
     creator: "@philhie",
   },
   icons: {
-    icon: "/icon",
-    apple: "/apple-icon",
+    icon: [
+      { url: "/favicon.ico", sizes: "48x48" },
+      { url: "/icon.svg", type: "image/svg+xml" },
+    ],
+    apple: [
+      { url: "/apple-icon" },
+    ],
   },
   robots: {
     index: true,
