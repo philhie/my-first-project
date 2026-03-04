@@ -1,7 +1,7 @@
 export default function Home() {
   return (
     <div className="flex min-h-screen items-center justify-center bg-black">
-      <main className="flex flex-col gap-12 px-8 py-20 max-w-lg w-full">
+      <main className="flex flex-col gap-10 px-6 py-16 sm:px-8 sm:py-20 max-w-lg w-full">
 
         {/* Monogram */}
         <div className="flex items-center justify-center w-10 h-10 rounded-lg bg-white text-black text-sm font-semibold tracking-tight select-none">
@@ -10,18 +10,18 @@ export default function Home() {
 
         {/* Content */}
         <div className="flex flex-col gap-4">
-          <div className="flex items-center gap-2">
-            <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" />
-            <span className="text-xs font-mono text-neutral-500 tracking-wider uppercase">
+          <div className="flex items-center gap-2 flex-wrap">
+            <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse shrink-0" />
+            <span className="text-xs font-mono text-neutral-500 tracking-wider uppercase leading-relaxed">
               Founders Associate · Avelios Medical
             </span>
           </div>
 
-          <h1 className="text-5xl font-bold tracking-tight text-white leading-none">
+          <h1 className="text-4xl sm:text-5xl font-bold tracking-tight text-white leading-none">
             Phil Hie
           </h1>
 
-          <p className="text-base text-neutral-400 leading-relaxed">
+          <p className="text-sm sm:text-base text-neutral-400 leading-relaxed">
             Building at the intersection of services and artificial intelligence.
             On a mission to build something big.
           </p>
