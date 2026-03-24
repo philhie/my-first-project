@@ -33,3 +33,5 @@ Use the `/browse` skill from gstack for all web browsing. Never use `mcp__claude
 - `/guard` - Production guard
 - `/unfreeze` - Unfreeze scoped edits
 - `/gstack-upgrade` - Upgrade gstack
+
+If gstack skills aren't working, run `cd .claude/skills/gstack && ./setup` to build the binary and register skills.
