@@ -26,9 +26,8 @@ export const metadata: Metadata = {
     default: "Phil Hie",
     template: "%s · Phil Hie",
   },
-  description:
-    "Building at the intersection of services and artificial intelligence. Founders Associate at Avelios Medical. On a mission to build something big.",
-  keywords: ["Phil Hie", "AI", "healthcare", "technology", "founder", "Avelios Medical"],
+  description: "Phil Hie. Building.",
+  keywords: ["Phil Hie", "building", "technology", "founder"],
   authors: [{ name: "Phil Hie", url: "https://philhie.com" }],
   creator: "Phil Hie",
   openGraph: {
@@ -36,15 +35,13 @@ export const metadata: Metadata = {
     locale: "en_US",
     url: "https://philhie.com",
     title: "Phil Hie",
-    description:
-      "Building at the intersection of services and artificial intelligence.",
+    description: "Building.",
     siteName: "Phil Hie",
   },
   twitter: {
     card: "summary_large_image",
     title: "Phil Hie",
-    description:
-      "Building at the intersection of services and artificial intelligence.",
+    description: "Building.",
     creator: "@philhie",
   },
   icons: {
