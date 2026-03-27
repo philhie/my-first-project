@@ -164,7 +164,8 @@ export default function Home() {
             style={{
               fontSize: "0.75rem",
               letterSpacing: "0.05em",
-              padding: "0.5rem 0", // 44px touch target via padding
+              padding: "0.875rem 0",
+              minHeight: "44px",
             }}
           >
             GitHub
@@ -180,7 +181,8 @@ export default function Home() {
             style={{
               fontSize: "0.75rem",
               letterSpacing: "0.05em",
-              padding: "0.5rem 0",
+              padding: "0.875rem 0",
+              minHeight: "44px",
             }}
           >
             LinkedIn
